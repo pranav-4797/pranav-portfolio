@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Pranav Chopade — AI-focused Full-Stack Developer skilled in Python, JavaScript, FastAPI & AI/ML. Portfolio showcasing PayTrust, NeonType Race, and more.">
+  <meta name="description" content="Pranav Chopade — AI-focused Full-Stack Developer & Engineering Student at MIT AOE. Skilled in Python, JavaScript, FastAPI & AI/ML. Hackathon winner and builder of intelligent applications.">
   <meta name="keywords" content="Pranav Chopade, Developer Portfolio, Python, JavaScript, AI, FastAPI, Full-Stack Developer">
   <meta name="author" content="Pranav Chopade">
   <title>Pranav Chopade — AI-Focused Full-Stack Developer</title>
@@ -36,40 +36,57 @@
     </div>
     <canvas id="hero-canvas"></canvas>
     <div class="container">
-      <div class="hero-content">
-        <div class="hero-badge">
-          <span class="dot"></span> Available for opportunities
-        </div>
-        <h1>
-          Hi, I'm Pranav<br>Chopade
-        </h1>
-        <p class="hero-tagline">
-          <span id="typed-text"></span><span class="typed-cursor">|</span>
-        </p>
-        <p class="hero-description">
-          I build intelligent applications at the intersection of AI and web technologies — 
-          from fraud-detection engines to real-time multiplayer experiences.
-        </p>
-        <div class="hero-buttons">
-          <a href="https://github.com/pranav-4797" target="_blank" class="btn-primary">
-            <i class="fab fa-github"></i> View GitHub
-          </a>
-          <a href="#projects" class="btn-secondary">
-            <i class="fas fa-arrow-down"></i> See My Work
-          </a>
-        </div>
-        <div class="hero-stats">
-          <div class="stat-item">
-            <div class="stat-number">3+</div>
-            <div class="stat-label">Projects Shipped</div>
+      <div class="hero-layout">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="dot"></span> Available for opportunities
           </div>
-          <div class="stat-item">
-            <div class="stat-number">11</div>
-            <div class="stat-label">Certifications</div>
+          <h1>
+            Hi, I'm Pranav<br>Chopade
+          </h1>
+          <p class="hero-tagline">
+            <span id="typed-text"></span><span class="typed-cursor">|</span>
+          </p>
+          <p class="hero-description">
+            Engineering student at <strong>MIT Academy of Engineering</strong>, Pune — 
+            I build intelligent applications at the intersection of AI and web technologies, 
+            from fraud-detection engines to real-time multiplayer experiences.
+          </p>
+          <div class="hero-buttons">
+            <a href="https://github.com/pranav-4797" target="_blank" class="btn-primary">
+              <i class="fab fa-github"></i> View GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/pranav-chopade4797/" target="_blank" class="btn-linkedin">
+              <i class="fab fa-linkedin-in"></i> LinkedIn
+            </a>
+            <a href="#projects" class="btn-secondary">
+              <i class="fas fa-arrow-down"></i> See My Work
+            </a>
           </div>
-          <div class="stat-item">
-            <div class="stat-number">5+</div>
-            <div class="stat-label">Technologies</div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-number">3+</div>
+              <div class="stat-label">Projects Shipped</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">11+</div>
+              <div class="stat-label">Certifications</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">🏆</div>
+              <div class="stat-label">Hackathon Winner</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-avatar">
+          <div class="avatar-wrapper">
+            <div class="avatar-glow"></div>
+            <div class="avatar-ring">
+              <img src="assets/avatar.png" alt="Pranav Chopade Avatar" class="avatar-img">
+            </div>
+            <div class="avatar-badge">
+              <span>🎓 MIT AOE '29</span>
+            </div>
           </div>
         </div>
       </div>
@@ -90,21 +107,24 @@
       <div class="about-grid">
         <div class="about-text reveal reveal-delay-1">
           <p>
-            I'm an <strong>AI-focused full-stack developer</strong> with a deep passion for building 
-            applications that are both intelligent and delightful to use. My journey spans from 
+            I'm an <strong>AI-focused full-stack developer</strong> and engineering student at 
+            <strong>MIT Academy of Engineering (MITAOE), Pune</strong> (2025–2029). My journey spans from 
             creating <strong>AI-powered fraud detection systems</strong> to crafting 
             <strong>real-time multiplayer games</strong>.
           </p>
           <p>
-            With a strong foundation in <strong>Python</strong> and <strong>JavaScript</strong>, 
-            I specialize in building full-stack applications using modern frameworks like 
-            <strong>FastAPI</strong> and technologies like <strong>WebSockets</strong>. 
-            I hold <strong>11 professional certifications</strong> 
-            across AI, machine learning, and programming.
+            I secured <strong>1st place at the Nirmaan 4.0 Hackathon</strong> for my project on 
+            <strong>Fraud Detection in Digital Payments</strong> — a machine learning system that 
+            analyzes transaction patterns in real-time. With a strong foundation in 
+            <strong>Python</strong> and <strong>JavaScript</strong>, I specialize in building 
+            full-stack applications using <strong>FastAPI</strong>, <strong>WebSockets</strong>, 
+            and modern AI/ML tools.
           </p>
           <p>
-            When I'm not coding, I'm exploring the latest in artificial intelligence, 
-            experimenting with new tools, and finding creative ways to apply AI to real-world problems.
+            I hold <strong>11+ professional certifications</strong> from IBM, Salesforce, Cisco, 
+            and Anthropic across AI, machine learning, and programming. When I'm not coding, 
+            I'm exploring generative AI, smart grids, and finding creative ways to apply 
+            AI to real-world problems.
           </p>
         </div>
 
@@ -482,17 +502,20 @@
             <span class="meta-badge" id="modal-category-badge"></span>
           </div>
         </div>
-        <button class="cert-modal-close" id="cert-modal-close">
+        <button class="cert-modal-close" id="cert-modal-close" title="Close (Esc)">
           <i class="fas fa-times"></i>
         </button>
       </div>
-      <div class="cert-modal-image">
-        <img id="modal-img" src="" alt="Certificate">
-      </div>
-      <div class="cert-modal-body">
-        <p class="cert-modal-description" id="modal-desc"></p>
-        <p class="cert-modal-skills-title">Skills Gained</p>
-        <div class="cert-modal-skills" id="modal-skills"></div>
+      <div class="cert-modal-body-layout">
+        <div class="cert-modal-image">
+          <img id="modal-img" src="" alt="Certificate">
+        </div>
+        <div class="cert-modal-body">
+          <p class="cert-modal-description" id="modal-desc"></p>
+          <div class="cert-modal-divider"></div>
+          <p class="cert-modal-skills-title">Skills Gained</p>
+          <div class="cert-modal-skills" id="modal-skills"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -522,6 +545,16 @@
             <div>
               <div class="contact-card-label">GitHub</div>
               <div class="contact-card-value">pranav-4797</div>
+            </div>
+          </a>
+
+          <a href="https://www.linkedin.com/in/pranav-chopade4797/" target="_blank" class="contact-card">
+            <div class="contact-card-icon linkedin-icon">
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+            <div>
+              <div class="contact-card-label">LinkedIn</div>
+              <div class="contact-card-value">Pranav Chopade</div>
             </div>
           </a>
 
@@ -561,6 +594,9 @@
         <div class="footer-socials">
           <a href="https://github.com/pranav-4797" target="_blank" aria-label="GitHub">
             <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/pranav-chopade4797/" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
           </a>
           <a href="mailto:chopadepranav2007@gmail.com" aria-label="Email">
             <i class="fas fa-envelope"></i>

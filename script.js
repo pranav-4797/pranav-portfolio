@@ -90,8 +90,10 @@ document.addEventListener('DOMContentLoaded', () => {
   if (typedEl) {
     new TypedEffect(typedEl, [
       'AI-Focused Full-Stack Developer',
+      'Nirmaan 4.0 Hackathon Winner 🏆',
       'Python & JavaScript Engineer',
-      'Building Intelligent Applications',
+      'MIT AOE Engineering Student',
+      'Building FinTech & AI Systems',
     ]);
   }
 
